@@ -1,0 +1,49 @@
+var nombres = ['Jose','pedro', 'Juan´]
+
+var nombres = ['Jose','pedro', 'Juan']
+undefined
+function saludar(nombre){
+    console.log (`Buenas tardes, $ {nombre}`)
+}
+undefined
+const funcionExpresion = function(nombres){
+    console.log (` Hola, funcion expresion, $(nombre)`)
+}
+undefined
+const fincionflecha = nombres => {
+    console.log (`Hola, funcion de flecha, $(nombre}`)
+}
+undefined
+
+for(var i=0; i<nombres.length; i++){
+    funcionExpresion(nombres[i])
+    fincionflecha(nombres[i])
+
+----------------------------------------------------------------
+
+
+var nombres = ['Jose','pedro', 'Juan']
+
+
+undefined
+nombres.push('Rosa')
+4
+nombres.pop()
+'Rosa'
+nombres.unshift('Emilia')
+4
+nombres.shift()
+'Emilia'
+nombres.indexOf("Pedro")
+-1
+nombres.indexOf("pedro")
+1
+----------------------------------------------------------
+var alumno = {
+    nombre: 'Pedro',
+    apellido: 'Guardado',
+     mostrarDatos: function(){
+         console.log (`${this.nombre}, ${this.apellido}`)
+     }
+}
+
