@@ -47,3 +47,20 @@ var alumno = {
      }
 }
 
+///////////////////////////////////////////////////////////////////
+function Alumno(nombreA, edadA){
+    this.nombre = nombreA
+    this.edad = edadA
+    }
+    
+for(let i=0; i<2;i++){
+    var nombre = prompt("Escriba el nombre")
+    var edad = prompt("Escribe la edad")
+    alumnos.push(new Alumno(nombre, edad))
+}
+2
+
+for(let i=0; i<alumnos.length;i++){
+    console.log(alumnos[i])
+}
+
